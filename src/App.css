@@ -63,10 +63,12 @@ input:focus {
 
 .emoji_list {
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 @media screen and (max-width: 760px) {
