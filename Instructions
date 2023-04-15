@@ -1,0 +1,12 @@
+procedure to setup the whole project in local
+-----------------------------------------------
+
+1.clone the whole project from this repo
+2.run npm install
+3.npm start
+enjoy!!!
+
+details
+----------------------------------
+As it was a very small project I haven'yt used any state management system bt I've used advanced hooks like useRef,useState and useEffect to give elastc search experience while 
+searching emojis.Also the whole website is mobile friendly.tried to make it as responsive as possible
